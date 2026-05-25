@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lorenz David Ruby | Portfolio</title>
+
+  <!-- Google Font: just one, keeping it simple -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- External stylesheet — all the styles live in styles.css -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a class="nav-logo" href="#home">lorenz<span>.dev</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- HOME SECTION -->
+  <section id="home">
+
+    <span class="hero-tag">&#9673; Open to Internships &amp; Collabs</span>
+
+    <h1 class="hero-title">
+      Hi, I'm <span class="name-highlight">Lorenz David Ruby</span><br />
+      IT Student &amp; Aspiring Dev
+    </h1>
+
+    <p class="hero-sub">
+      Welcome to my space! I'm studying <em>Information Technology</em>
+      and slowly building things on the internet, one tag at a time.
+    </p>
+
+    <div class="hero-buttons">
+      <a class="btn btn-primary" href="#projects">View My Projects</a>
+      <a class="btn btn-secondary" href="#contact">Say Hello</a>
+    </div>
+
+    <div class="scroll-hint">SCROLL</div>
+
+  </section>
+
+  <hr class="section-divider" />
+
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+
+    <p class="section-heading">// 01 &mdash; who am i</p>
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-grid">
+
+      <!-- placeholder avatar — real photo TBD -->
+      <div class="about-avatar" aria-label="Placeholder profile photo"></div>
+
+      <div class="about-text">
+        <p>
+          Hey there! I'm a second-year Information Technology student who caught the coding bug
+          about a year ago and hasn't stopped since. I started with Python in class, then
+          fell down a rabbit hole of web stuff — and here we are.
+        </p>
+        <p>
+          Right now I'm really into networking fundamentals and database management. There's
+          something deeply satisfying about designing a clean schema and watching your queries
+          pull exactly the right data. I also enjoy front-end tinkering, which is why I
+          spent way too many hours getting this nav bar's hover effect just right.
+        </p>
+        <p>
+          When I'm not at my desk, I'm probably reading manga, playing chess online
+          (1100 Elo — still grinding), or helping my younger sister with her math homework.
+        </p>
+
+        <!-- current tech stack -->
+        <div class="stack-badges">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">Kotlin</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Python</span>
+          <span class="badge">MySQL</span>
+          <span class="badge">Git</span>
+          <span class="badge">Linux basics</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <hr class="section-divider" />
+
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+
+    <p class="section-heading">// 02 &mdash; things i built</p>
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- ---- PROJECT CARD 1 ---- -->
+      <article class="project-card">
+        <div class="project-img">
+          <!-- Use this sample to put preview image on projects: 
+           <img src="images/faculty-tracker.png" alt="Screenshot of the Faculty Tracker desktop application interface" />  -->
+          <img src="/portfolio/projectImg/sampleDesktopImg.png" alt="Screenshot of the Faculty Tracker desktop application interface" />
+        </div>
+        <div class="project-body">
+          <span class="project-tag">Python &middot; MySQL</span>
+          <h3 class="project-title">Faculty Tracker App</h3>
+          <p class="project-desc">
+            A desktop app to track faculty schedules and room assignments.
+            Built with Tkinter + MySQL for our Database Systems subject.
+            My first time connecting Python to an actual database — it took
+            forever but it works!
+          </p>
+          <div class="project-footer">
+            <a class="project-link" href="#">View Project &rarr;</a>
+            <span class="project-lang">Python / SQL</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---- PROJECT CARD 2 ---- -->
+      <article class="project-card">
+        <div class="project-img">
+          <span class="project-img-label">[ screenshot ]</span>
+        </div>
+        <div class="project-body">
+          <span class="project-tag">SQL &middot; ERD Design</span>
+          <h3 class="project-title">Database Lab Project</h3>
+          <p class="project-desc">
+            End-to-end relational database for a fictional university bookstore.
+            Designed the ER diagram, wrote normalized tables, and created stored
+            procedures for common queries. Got a 92 on this one!
+          </p>
+          <div class="project-footer">
+            <a class="project-link" href="#">View Project &rarr;</a>
+            <span class="project-lang">MySQL</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---- PROJECT CARD 3 ---- -->
+      <article class="project-card">
+        <div class="project-img">
+          <span class="project-img-label">[ screenshot ]</span>
+        </div>
+        <div class="project-body">
+          <span class="project-tag">HTML &middot; CSS &middot; JS</span>
+          <h3 class="project-title">This Portfolio!</h3>
+          <p class="project-desc">
+            The site you're looking at right now. No frameworks, no templates —
+            just me reading MDN docs at midnight and figuring things out the hard
+            way. Now properly split into HTML, CSS, and JS files too!
+          </p>
+          <div class="project-footer">
+            <a class="project-link" href="#">Source Code &rarr;</a>
+            <span class="project-lang">HTML / CSS / JS</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+
+  <hr class="section-divider" />
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+
+    <p class="section-heading">// 03 &mdash; get in touch</p>
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-wrapper">
+
+      <!-- left: intro text -->
+      <div class="contact-intro">
+        <p>
+          If you've got a question, want to collaborate on a school project,
+          or just want to say hi — feel free to send a message. I usually
+          reply within a day or two.
+        </p>
+        <p style="margin-top: 0.75rem;">
+          I'm especially open to teaming up on open-source stuff, student
+          hackathons, or anything Python / web related.
+        </p>
+
+        <ul class="contact-info-list">
+          <li>
+            <span class="info-label">Email</span>
+            <span>lorenzruby@student.edu.ph</span>
+          </li>
+          <li>
+            <span class="info-label">GitHub</span>
+            <span>github.com/lorenzruby</span>
+          </li>
+          <li>
+            <span class="info-label">Location</span>
+            <span>Philippines &#127477;&#127469;</span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="#" method="post" novalidate>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <span class="field-error" id="nameError">Please enter your name.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            <span class="field-error" id="emailError">Please enter a valid email.</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Type your message here..." required maxlength="500"></textarea>
+          <div class="char-counter" id="charCounter">0 / 500</div>
+          <span class="field-error" id="messageError">Please write a message.</span>
+        </div>
+
+        <button class="btn-submit" id="submitBtn" type="submit">Send Message &rarr;</button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer-brand">
+      Handcrafted with HTML, CSS &amp; JS by <strong>Lorenz David Ruby</strong> &mdash; &copy; 2026
+    </p>
+    <p class="footer-note">NO FRAMEWORKS WERE HARMED IN THE MAKING OF THIS WEBSITE</p>
+  </footer>
+
+
+  <!-- TOAST NOTIFICATION via JavaScript -->
+  <div class="toast" id="toast" role="alert" aria-live="polite">
+    <span class="toast-icon" id="toastIcon"></span>
+    <div class="toast-body">
+      <p class="toast-title" id="toastTitle"></p>
+      <p class="toast-msg"   id="toastMsg"></p>
+    </div>
+  </div>
+
+
+  <!-- External JS — loaded at the end so the DOM is ready when it runs -->
+  <script src="script.js"></script>
+
+</body>
+</html>
